@@ -215,9 +215,6 @@ For each stage:
 from version 5.0 to 8.3 mongodb will be run by mongosh instead mongo
 so need to use /usr/local/bin/mongosh instead /root/mongodb-4.6/bin/mongod \
 
-
-These discrepancies are preserved here as review warnings rather than treated as validated upgrade instructions.
-
 ## 7. Shut down cleanly between stages
 
 Connect to the server and run:
