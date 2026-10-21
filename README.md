@@ -210,15 +210,11 @@ For each stage:
 7. Run database statistics and application validation.
 8. Save the results and proceed only after the checks pass.
 
-### Source-document discrepancies to resolve
+### Some technical buzzword  to resolve
 
-The original notes contain labels that do not consistently match the commands. In particular:
+from version 5.0 to 8.3 mongodb will be run by mongosh instead mongo
+so need to use /usr/local/bin/mongosh instead /root/mongodb-4.6/bin/mongod \
 
-- A step is labelled “4.4 to 4.6” but uses MongoDB 5.0 binaries and FCV 5.0.
-- Some comments state an expected FCV that differs from the command or target version.
-- The 8.3 section refers to an 8.0-to-8.3 step but contains an FCV value of `8.3`; verify this against official documentation before use.
-- The documents mix `mongo` and `mongosh`, and use different paths and ports.
-- Some command examples use `mongo` where the executable should be `mongod` to start the database server. Check each command carefully before execution.
 
 These discrepancies are preserved here as review warnings rather than treated as validated upgrade instructions.
 
